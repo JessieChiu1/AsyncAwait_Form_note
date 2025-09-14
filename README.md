@@ -80,8 +80,8 @@ async function getRandomAdviceSlip() {
       throw new Error("response is not okay, check if url is correct")
     }
 
-    const json = await response.json()
-    console.log(json)
+    const jsObject = await response.json()
+    console.log(jsObject)
 
     // at this point, you can do what you want to the JSON
     // it usually means some form of DOM manipulation to display the data that you got
@@ -152,8 +152,8 @@ async function functionName() {
       throw new Error("response is not okay, check if url is correct")
     }
 
-    const json = await response.json()
-    console.log(json)
+    const jsObject = await response.json()
+    console.log(jsObject)
 
     // at this point, you can do what you want to the JSON
     // it usually means some form of DOM manipulation to display the data that you got
